@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matheus Pedroso - Devfolio</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="stylesheet" href="./src/styles.css">
 </head>
 
@@ -12,16 +13,16 @@
     <header class="header">
         <div class="container container--md">
             <nav class="navbar family--jetbrains-mono">
-                <p class="navbar__logo text--default">
+                <a class="navbar__logo text--default" href="#hero">
                     pedroso.dev
-                </p>
+                </a>
 
                 <p class="family--inter text--italic text--muted">Building technology for a better future</p>
 
                 <div class="flex flex-row items-center gap-sm">
                     <ul class="navbar__menu">
                         <li><a href="#about" class="navbar__item text--default">aboutMe</a></li>
-                        <li><a href="#about" class="navbar__item text--default">projects</a></li>
+                        <li><a href="#projects" class="navbar__item text--default">projects</a></li>
                     </ul>
 
                     <div class="divider--vertical"></div>
@@ -41,7 +42,7 @@
     </header>
 
     <main class="main">
-        <section class="hero">
+        <section id="hero" class="hero">
             <div class="container container--md container-spacing--sm">
                 <div class="hero__content flex items-start flex-column gap-lg">
                     <span class="cursor-shell flex flex-row items-center family--jetbrains-mono">
@@ -95,7 +96,7 @@
             </div>
         </section>
 
-        <section class="aboutme">
+        <section id="about" class="aboutme">
             <div class="container container--md container-spacing--sm">
                 <div class="about__content flex items-center flex-column gap-lg">
                     <div class="divider--horizontal">
@@ -145,7 +146,7 @@
             </div>
         </section>
 
-        <section class="projects">
+        <section id="projects" class="projects">
             <div class="container container--md container-spacing--sm">
                 <div class="projects__content flex items-center flex-column gap-lg">
                     <div class="divider--horizontal">
