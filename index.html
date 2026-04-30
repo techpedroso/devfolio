@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matheus Pedroso - Devfolio</title>
+    <link rel="stylesheet" href="./src/styles.css">
+</head>
+
+<body class="body">
+    <header class="header">
+        <div class="container container--md">
+            <nav class="navbar family--jetbrains-mono">
+                <p class="navbar__logo text--default">
+                    pedroso.dev
+                </p>
+
+                <p class="family--inter text--italic text--muted">Building technology for a better future</p>
+
+                <div class="flex flex-row items-center gap-sm">
+                    <ul class="navbar__menu">
+                        <li><a href="#about" class="navbar__item text--default">aboutMe</a></li>
+                        <li><a href="#about" class="navbar__item text--default">projects</a></li>
+                    </ul>
+
+                    <div class="divider--vertical"></div>
+
+                    <svg class="button icon icon--lg icon--primary">
+                        <use href="/src/assets/icons/icons.svg#icon-github"></use>
+                    </svg>
+
+                    <button id="theme-toggle" class="button">
+                        <svg class="icon icon--lg icon--primary">
+                            <use id="theme-icon" href="/src/assets/icons/icons.svg#icon-moon"></use>
+                        </svg>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container container--md container-spacing--sm">
+                <div class="hero__content flex items-start flex-column gap-lg">
+                    <span class="cursor-shell flex flex-row items-center family--jetbrains-mono">
+                        $ cat about.html
+                        <!-- The blink cursor -->
+                        <span class="cursor"></span>
+                    </span>
+
+                    <h1 class="hero__title family--jetbrains-mono font-size--title">
+                        Hey, I'm Pedroso
+                    </h1>
+
+                    <h3 class="hero__subtitle family--jetbrains-mono font-size--subtitle">
+                        Full-Stack Developer & Technology Enthusiast
+                    </h3>
+
+                    <p
+                        class="hero__description family--inter font-size--sm line-height--lg text-content--md text--muted">
+                        I build things for the web.I build things for the web.I build things for the web.
+                    </p>
+
+                    <div class="hero__actions">
+                        <a href="https://github.com/seuusuario" target="_blank"
+                            class="button button-space button--primary">
+                            <svg class="icon icon--sm" aria-hidden="true">
+                                <use href="/src/assets/icons/icons.svg#icon-github"></use>
+                            </svg>
+
+                            GitHub
+                        </a>
+
+                        <a href="https://linkedin.com/in/seuusuario" target="_blank"
+                            class="button button-space button--secondary">
+                            <svg class="icon icon--sm add-icon-stroke remove-icon-fill" aria-hidden="true">
+                                <use href="/src/assets/icons/icons.svg#icon-linkedin"></use>
+                            </svg>
+
+                            LinkedIn
+                        </a>
+
+                        <a href="mailto:technologypedroso@gmail.com" target="_blank"
+                            class="button button-space button--secondary font-size--sm">
+                            <svg class="icon icon--sm" aria-hidden="true">
+                                <use href="/src/assets/icons/icons.svg#icon-mail"></use>
+                            </svg>
+
+                            Email
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="aboutme">
+            <div class="container container--md container-spacing--sm">
+                <div class="about__content flex items-center flex-column gap-lg">
+                    <div class="divider--horizontal">
+                        <h2 class="section__title font-size--section">about_me</h2>
+                    </div>
+
+                    <p
+                        class="about__description family--inter font-size--sm line-height--md text-content--md text--muted">
+                        I build things for the web.I build things for the web.I build things for the web.
+                    </p>
+
+                    <span>video goes here</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="experience">
+            <div class="container container--md container-spacing--sm">
+                <div class="experience__content flex items-center flex-column gap-lg">
+                    <div class="divider--horizontal">
+                        <h2 class="section__title font-size--section">professional_experience</h2>
+                    </div>
+
+                    <p
+                        class="experience__description family--inter font-size--sm line-height--md text-content--md text--muted">
+                        I build things for the web.I build things for the web.I build things for the web.
+                    </p>
+
+                    <div class="experience__readme">
+                        <div class="readme__header flex items-center flex-row gap-sm">
+                            <div class="bullet bullet--red"></div>
+                            <div class="bullet bullet--yellow"></div>
+                            <div class="bullet bullet--green"></div>
+                        </div>
+
+                        <div class="readme__content">
+                            <h1>Professional Experience</h1>
+                            <p>qualquer coisa</p>
+
+                            <div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="projects">
+            <div class="container container--md container-spacing--sm">
+                <div class="projects__content flex items-center flex-column gap-lg">
+                    <div class="divider--horizontal">
+                        <h2 class="section__title font-size--section">main_projects</h2>
+                    </div>
+
+                    <p
+                        class="projects__description family--inter font-size--sm line-height--md text-content--md text--muted">
+                        I build things for the web.I build things for the web.I build things for the web.
+                    </p>
+
+                    <div class="container container--md grid grid--auto gap-md">
+                        <div class="card flex flex-column gap-md">
+
+                            <div class="flex items-center gap-sm family--jetbrains-mono font-size--xsm">
+                                <svg class="icon icon--md icon--primary">
+                                    <use id="theme-icon" href="/src/assets/icons/icons.svg#icon-book"></use>
+                                </svg>
+                                Titulo do Projeto
+                            </div>
+
+                            <div class="family--inter line-height--md font-size--xsm weight--600">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, similique? Possimus
+                                laborum, blanditiis consequatur consectetur dolore ea asperiores voluptatem
+                            </div>
+
+                            <div class="family--jetbrains-mono line-height--md font-size--xsm weight--600">
+                                release date: 10/10/2024
+                            </div>
+
+                        </div>
+
+                        <div class="card flex flex-column gap-md">
+
+                            <div class="flex items-center gap-sm family--jetbrains-mono font-size--xsm">
+                                <svg class="icon icon--md icon--primary">
+                                    <use id="theme-icon" href="/src/assets/icons/icons.svg#icon-book"></use>
+                                </svg>
+                                Titulo do Projeto
+                            </div>
+
+                            <div class="family--inter line-height--md font-size--xsm weight--600">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, similique? Possimus
+                                laborum, blanditiis consequatur consectetur dolore ea asperiores voluptatem
+                            </div>
+
+                            <div class="family--jetbrains-mono line-height--md font-size--xsm weight--600">
+                                release date: 10/10/2024
+                            </div>
+
+                        </div>
+
+                        <div class="card flex flex-column gap-md">
+
+                            <div class="flex items-center gap-sm family--jetbrains-mono font-size--xsm">
+                                <svg class="icon icon--md icon--primary">
+                                    <use id="theme-icon" href="/src/assets/icons/icons.svg#icon-book"></use>
+                                </svg>
+                                Titulo do Projeto
+                            </div>
+
+                            <div class="family--inter line-height--md font-size--xsm weight--600">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, similique? Possimus
+                                laborum, blanditiis consequatur consectetur dolore ea asperiores voluptatem
+                            </div>
+
+                            <div class="family--jetbrains-mono line-height--md font-size--xsm weight--600">
+                                release date: 10/10/2024
+                            </div>
+
+                        </div>
+
+                        <div class="card flex flex-column gap-md">
+
+                            <div class="flex items-center gap-sm family--jetbrains-mono font-size--xsm">
+                                <svg class="icon icon--md icon--primary">
+                                    <use id="theme-icon" href="/src/assets/icons/icons.svg#icon-book"></use>
+                                </svg>
+                                Titulo do Projeto
+                            </div>
+
+                            <div class="family--inter line-height--md font-size--xsm weight--600">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, similique? Possimus
+                                laborum, blanditiis consequatur consectetur dolore ea asperiores voluptatem
+                            </div>
+
+                            <div class="family--jetbrains-mono line-height--md font-size--xsm weight--600">
+                                release date: 10/10/2024
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div >
+
+        </div>
+    </footer>
+
+    <script type="module" src="./index.js"></script>
+</body>
+
+</html>

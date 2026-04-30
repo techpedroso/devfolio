@@ -1,0 +1,98 @@
+:root {
+    /* 🎨 Colors */
+    --color-neutral-0: #FFFFFF;
+    --color-neutral-50: #F1F1F1;
+    --color-neutral-75: #e2e2e2;
+    --color-neutral-100: #A0A0A0;
+    --color-neutral-200: #757575;
+    --color-neutral-300: #515151;
+    --color-neutral-700: #333333;
+    --color-neutral-800: #2A2A2A;
+    --color-neutral-900: #1E1E1E;
+
+    --color-blue-400: #3395F7;
+    --color-blue-500: #007AF4;
+
+    --color-green-400: #5FED83;
+    --color-green-500: #0FBF3E;
+
+    /* 🚦 Feedback */
+    --color-success: #22c55e;
+    --color-warning: #f59e0b;
+    --color-error: #ef4444;
+
+    /* Spacing */
+    --spacing-xs: 0.25rem; /* 4px */
+    --spacing-sm: 0.5rem;  /* 8px */
+    --spacing-md: 1rem;    /* 16px */
+    --spacing-lg: 1.5rem;  /* 24px */
+    --spacing-xl: 2rem;    /* 32px */
+
+    /* Radius */
+    --radius-sm: 0.25rem;  /* 4px */
+    --radius-md: 0.5rem;   /* 8px */
+    --radius-lg: 0.75rem;  /* 12px */
+
+    /* Typography */
+    --font-base: 'Inter', sans-serif;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 600;
+
+    /* Layers */
+    --z-dropdown: 1000;
+    --z-modal: 1100;
+    --z-tooltip: 1200;
+}
+
+:root[data-theme="light"] {
+    /* Primary */
+    --color-primary: var(--color-blue-500);
+    --color-primary-hover: var(--color-blue-400);
+
+    /* Backgrounds */
+    --color-bg: var(--color-neutral-0);
+    --color-surface: var(--color-neutral-50);
+    --color-surface-hover: var(--color-neutral-75);
+
+    --color-blur: rgba(255, 255, 255, 0.5);
+
+    /* Text */
+    --color-text: var(--color-neutral-900);
+    --color-text-muted: var(--color-neutral-200);
+    --color-text-inverse: var(--color-neutral-0);
+
+    /* Border */
+    --color-border: var(--color-neutral-75);
+
+    /* shadow */
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 3px 6px rgba(0, 0, 0, 0.3);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.4);
+}
+
+:root[data-theme="dark"] {
+    /* Primary */
+    --color-primary: var(--color-blue-500);
+    --color-primary-hover: var(--color-blue-400);
+
+    /* Backgrounds */
+    --color-bg: var(--color-neutral-900);
+    --color-surface: var(--color-neutral-800);
+    --color-surface-hover: var(--color-neutral-700);
+
+    --color-blur: rgba(55, 55, 55, 0.1);
+
+    /* Text */
+    --color-text: var(--color-neutral-50);
+    --color-text-muted: var(--color-neutral-100);
+    --color-text-inverse: var(--color-neutral-900);
+
+    /* Border */
+    --color-border: var(--color-neutral-300);
+
+    /* shadow */
+    --shadow-sm: 0 1px 2px rgba(255, 255, 255, 0.1);
+    --shadow-md: 0 4px 6px rgba(255, 255, 255, 0.3);
+    --shadow-lg: 0 10px 15px rgba(255, 255, 255, 0.4);
+}

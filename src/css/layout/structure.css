@@ -1,0 +1,7 @@
+@import url('structure/header.css');
+@import url('structure/main.css');
+@import url('structure/footer.css');
+
+body {
+  transition: 0.2s ease;
+}

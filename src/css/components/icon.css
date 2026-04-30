@@ -1,0 +1,41 @@
+.icon {
+    display: block;
+    fill: currentColor;
+    transition: 0.2s ease;
+}
+
+.icon--sm {
+    width: 16px;
+    height: 16px;
+}
+
+.icon--md {
+    width: 20px;
+    height: 20px;
+}
+
+.icon--lg {
+    width: 24px;
+    height: 24px;
+}
+
+/* Stroke and Fill */
+
+.add-icon-stroke {
+    stroke: currentColor;
+}
+
+.remove-icon-fill {
+    fill: transparent !important;
+}
+
+/* Colors and hover */
+/* ! The colors are inherited from the button classes ! */
+
+.icon--primary {
+    color: var(--color-primary);
+}
+
+.icon--primary:hover {
+    color: var(--color-primary-hover);
+}

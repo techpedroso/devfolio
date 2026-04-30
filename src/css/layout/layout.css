@@ -1,0 +1,12 @@
+.container {
+  margin: 0 auto;
+}
+
+.container--md {
+  max-width: 900px;
+}
+
+/* Spacing */
+.container-spacing--sm {
+  padding: 6rem var(--spacing-sm);
+}

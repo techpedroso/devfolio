@@ -1,0 +1,104 @@
+body {
+  font-family: var(--font-base);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+}
+
+p {
+  padding: var(--spacing-md) 0;
+}
+
+/* Family */
+.family--jetbrains-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.family--inter {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Decoration */
+.text--italic {
+  font-style: italic;
+}
+
+/* Content size */
+.text-content--sm {
+  max-width: 60ch;
+}
+
+.text-content--md {
+  max-width: 65ch;
+}
+
+.text-content--lg {
+  max-width: 70ch;
+}
+
+/* Size */
+.font-size--xsm {
+  font-size: 0.80rem;
+}
+
+.font-size--sm {
+  font-size: 1rem;
+}
+
+.font-size--md {
+  font-size: 1.15rem;
+}
+
+.font-size--subtitle {
+  font-size: 1.5rem;
+}
+
+.font-size--section {
+  font-size: 2rem;
+}
+
+.font-size--title {
+  font-size: 3rem;
+}
+
+/* font weight */
+.weight--600 {
+  font-weight: 500;
+}
+
+/* Line Height */
+.line-height--sm {
+  line-height: 1rem;
+}
+
+.line-height--md {
+  line-height: 1.1rem;
+}
+
+.line-height--lg {
+  line-height: 1.7rem;
+}
+
+/* Color */
+.text--primary {
+  color: var(--color-primary);
+}
+
+.text--default {
+  color: var(--color-text);
+}
+
+.text--muted {
+  color: var(--color-text-muted);
+}
+
+/*  */
+.section__title::before {
+  content: '# ';
+  color: var(--color-primary);
+}

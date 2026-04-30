@@ -1,0 +1,20 @@
+.bullet {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.bullet--red {
+    /* candy apple */
+    background-color: #FF0800;
+}
+
+.bullet--yellow {
+    /* bumblebee */
+    background-color: #FCE205;
+}
+
+.bullet--green {
+    /* lime green */
+    background-color: #32CD32;
+}

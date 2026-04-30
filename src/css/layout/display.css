@@ -1,0 +1,56 @@
+/* --- Display Flex --- */
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+/* justify-content */
+.content-start {
+  justify-content: flex-start;
+}
+
+.content-center {
+  justify-content: center;
+}
+
+/* align-items */
+.items-start {
+  align-items: flex-start;
+}
+
+.items-center {
+  align-items: center;
+}
+
+/* --- Display Grid --- */
+.grid {
+  display: grid;
+}
+
+.grid--2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--auto {
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+/* gap */
+.gap-sm {
+  gap: var(--spacing-sm);
+}
+
+.gap-md {
+  gap: var(--spacing-md);
+}
+
+.gap-lg {
+  gap: var(--spacing-lg);
+}
