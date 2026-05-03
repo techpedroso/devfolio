@@ -128,18 +128,58 @@
                     </p>
 
                     <div class="experience__readme">
-                        <div class="readme__header flex items-center flex-row gap-sm">
-                            <div class="bullet bullet--red"></div>
-                            <div class="bullet bullet--yellow"></div>
-                            <div class="bullet bullet--green"></div>
+
+                        <div class="readme__header flex flex-row content-between items-center gap-sm">
+                            <div class="flex items-center flex-row gap-sm">
+                                <div class="bullet bullet--red"></div>
+                                <div class="bullet bullet--yellow"></div>
+                                <div class="bullet bullet--green"></div>
+                            </div>
+
+                            <div class="nav-controls flex content-center items-center gap-sm">
+
+                                <button id="prevBtn">
+                                    <svg class="icon icon--lg">
+                                        <use href="/src/assets/icons/icons.svg#icon-arrow-left"></use>
+                                    </svg>
+                                </button>
+                                
+                                <button id="nextBtn">
+                                    <svg class="icon icon--lg">
+                                        <use href="/src/assets/icons/icons.svg#icon-arrow-rigth"></use>
+                                    </svg>
+                                </button>
+
+                            </div>
                         </div>
 
                         <div class="readme__content">
-                            <h1>Professional Experience</h1>
-                            <p>qualquer coisa</p>
 
-                            <div>
+                            <div class="carousel-wrapper" id="wrapper">
 
+                                <div class="carousel-track" id="track">
+                                    <!-- aqui dentro, as divs com os conteúdos que irão passar no carousel -->
+                                    <!-- cada div com a classe item é um conteúdo que irá passar -->
+
+                                    <div class="item">
+                                        Hello, World!
+                                    </div>
+
+                                    <div class="item">
+                                        Hello, World!
+
+                                    </div>
+
+                                    <div class="item">
+                                        Hello, World!
+
+                                    </div>
+
+                                    <div class="item">
+                                        Hello, World!
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
                     </div>

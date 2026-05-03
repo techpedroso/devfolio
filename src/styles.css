@@ -15,9 +15,10 @@
 @import url("css/components/button.css");
 @import url("css/components/icon.css");
 @import url("css/components/readme.css");
+@import url("css/components/carousel.css");
 
 /* theme */
-@import url("./css/themes/theme.css");
+@import url("css/themes/theme.css");
 
 /* utilities */
 @import url("css/utilities/divider.css");
