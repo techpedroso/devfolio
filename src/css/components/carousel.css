@@ -1,4 +1,4 @@
-.carousel-wrapper {
+.carousel__wrapper {
     flex: 1;
     overflow: hidden;
     position: relative;
@@ -6,17 +6,17 @@
     border-radius: 15px;
 }
 
-.carousel-track {
+.carousel__track {
     display: flex;
     gap: 20px;
     transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
-.item {
+.carousel__item {
     flex: 0 0 100%;
 }
 
-.item img {
+.carousel__item img {
     width: 100%;
     border-radius: 15px;
     display: block;

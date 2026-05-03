@@ -3,7 +3,7 @@ function initCarousel() {
     
 
     const track = document.getElementById('track');
-    const items = document.querySelectorAll('.item');
+    const items = document.querySelectorAll('.carousel__item');
     const nextBtn = document.getElementById('nextBtn');
     const prevBtn = document.getElementById('prevBtn');
 
