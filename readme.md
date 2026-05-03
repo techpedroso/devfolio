@@ -1,5 +1,9 @@
 # Devfolio
 
+# project versioning
+
+tipo(escopo): descrição
+
 # CSS with BEM and prefixes
 
 O foco é separar as responsabilidades quanto ao estilo do elemento HTML:
