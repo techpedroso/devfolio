@@ -10,6 +10,22 @@
     border-bottom: 1px solid var(--color-border);
 }
 
+.readme__search-bar {
+    width: 60%;
+
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+
+    padding: var(--spacing-sm);
+
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+
+    font-size: 0.90rem;
+    color: var(--color-text-muted);
+}
+
 .readme__content {
     padding: var(--spacing-md);
 }

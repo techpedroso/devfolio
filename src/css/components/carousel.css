@@ -2,8 +2,6 @@
     flex: 1;
     overflow: hidden;
     position: relative;
-    /* Necessário para posicionar os botões */
-    border-radius: 15px;
 }
 
 .carousel__track {

@@ -33,7 +33,7 @@ function initCarousel() {
     prevBtn.addEventListener('click', prevSlide);
 
     // Autoplay
-    let autoPlay = setInterval(nextSlide, 5000);
+    let autoPlay = setInterval(nextSlide, 10000);
 
     function resetTimer() {
         clearInterval(autoPlay);
