@@ -1,6 +1,6 @@
 # Devfolio
 
-# project versioning
+# project versioning and Version Control
 
 tipo(escopo): descrição
 
