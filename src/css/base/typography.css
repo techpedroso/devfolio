@@ -71,6 +71,11 @@ p {
   font-weight: 500;
 }
 
+/* Line align */
+.text-align--center {
+  text-align: center;
+}
+
 /* Line Height */
 .line-height--sm {
   line-height: 1rem;
@@ -97,7 +102,7 @@ p {
   color: var(--color-text-muted);
 }
 
-/*  */
+/* decoration */
 .section__title::before {
   content: '# ';
   color: var(--color-primary);
