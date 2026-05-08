@@ -33,6 +33,10 @@
   align-items: center;
 }
 
+.items-stretch {
+  align-items: stretch;
+}
+
 /* --- Display Grid --- */
 .grid {
   display: grid;
