@@ -20,7 +20,7 @@
     display: block;
 }
 
-.nav-controls button {
+.carousel__controls button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,6 +40,6 @@
     transition: 0.3s;
 }
 
-.nav-controls button:hover {
+.carousel__controls button:hover {
     background-color: var(--color-surface-hover);
 }

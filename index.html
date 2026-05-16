@@ -55,7 +55,7 @@
                     </span>
 
                     <h1 class="hero__title family--jetbrains-mono font-size--title">
-                        Hey, I'm 
+                        Hey, I'm
                         <span class="text--primary">
                             Pedroso
                         </span>
@@ -79,34 +79,34 @@
                                 <svg class="icon icon--md" aria-hidden="true">
                                     <use href="/src/assets/icons/icons.svg#icon-github"></use>
                                 </svg>
-    
+
                                 GitHub
                             </a>
-    
+
                             <a href="https://leetcode.com/u/TechPedroso/" target="_blank"
                                 class="button button-space button--secondary">
                                 <svg class="icon icon--sm" aria-hidden="true">
                                     <use href="/src/assets/icons/icons.svg#icon-leetcode"></use>
                                 </svg>
-    
+
                                 LeetCode
                             </a>
-    
+
                             <a href="https://www.linkedin.com/in/matheus-pedroso-742730251" target="_blank"
                                 class="button button-space button--secondary">
                                 <svg class="icon icon--sm add-icon-stroke remove-icon-fill" aria-hidden="true">
                                     <use href="/src/assets/icons/icons.svg#icon-linkedin"></use>
                                 </svg>
-    
+
                                 LinkedIn
                             </a>
-    
+
                             <a href="mailto:technologypedroso@gmail.com" target="_blank"
                                 class="button button-space button--secondary">
                                 <svg class="icon icon--sm" aria-hidden="true">
                                     <use href="/src/assets/icons/icons.svg#icon-mail"></use>
                                 </svg>
-    
+
                                 Email
                             </a>
                         </div>
@@ -123,7 +123,8 @@
                         <h2 class="section__title font-size--section">about_me</h2>
                     </div>
 
-                    <p class="about__description family--inter font-size--sm line-height--md text-content--md text-align--center text--muted">
+                    <p
+                        class="about__description family--inter font-size--sm line-height--md text-content--md text-align--center text--muted">
                         Text works, but video is cooler
                         <br>
                         <br>
@@ -139,7 +140,7 @@
             <div class="container container--md container-spacing--sm">
                 <div class="experience__content flex items-center flex-column gap-lg">
                     <div class="divider--horizontal">
-                        <h2 class="section__title font-size--section">professional_experience</h2>
+                        <h2 class="section__title font-size--section">experience</h2>
                     </div>
 
                     <p
@@ -147,67 +148,80 @@
                         I build things for the web.I build things for the web.I build things for the web.
                     </p>
 
-                    <div class="experience__readme">
+                    <div class="experience__browser">
 
-                        <div class="readme__header flex flex-row content-between items-center gap-sm">
+                        <div class="browser__header flex flex-row content-between items-center gap-sm">
                             <div class="flex items-center flex-row gap-sm">
                                 <div class="bullet bullet--red"></div>
                                 <div class="bullet bullet--yellow"></div>
                                 <div class="bullet bullet--green"></div>
                             </div>
 
-                            <div class="readme__search-bar">
-                                <svg class="icon icon--primary icon--md">
+                            <div class="browser__search-bar">
+                                <svg class="icon icon--primary icon--sm">
                                     <use href="/src/assets/icons/icons.svg#icon-search"></use>
                                 </svg>
-                                <span class="">
+                                <span>
                                     Who is Matheus Pedroso?
                                 </span>
                             </div>
 
-                            <div class="nav-controls flex content-center items-center gap-sm">
+                            <div class="browser__controls flex content-center items-center gap-sm">
+                                <button id="browser__controls__home" class="browser__controls--main">
+                                    <svg class="icon icon--md">
+                                        <use href="/src/assets/icons/icons.svg#icon-home--bold"></use>
+                                    </svg>
+                                </button>
 
-                                <button id="prevBtn">
+                                <button id="browser__controls__back" class="browser__controls--secondary">
                                     <svg class="icon icon--lg">
                                         <use href="/src/assets/icons/icons.svg#icon-arrow--left"></use>
                                     </svg>
                                 </button>
 
-                                <button id="nextBtn">
+                                <button id="browser__controls__next" class="browser__controls--secondary">
                                     <svg class="icon icon--lg">
                                         <use href="/src/assets/icons/icons.svg#icon-arrow--rigth"></use>
                                     </svg>
                                 </button>
-
                             </div>
                         </div>
 
-                        <div class="readme__content">
+                        <div class="browser__content-container">
+                            <div id="browser__results" class="browser__results">
+                                <span>Aproximadamente 6 resultados (0,54s)</span>
+                                <br>
+                                <br>
 
-                            <div class="carousel__wrapper" id="wrapper">
-
-                                <div class="carousel__track" id="track">
-                                    <!-- aqui dentro, as divs com os conteúdos que irão passar no carousel -->
-                                    <!-- cada div com a classe item é um conteúdo que irá passar -->
-
-                                    <div class="carousel__item">
-                                        Hello, World!
-                                    </div>
-
-                                    <div class="carousel__item">
-                                        Hello, World!
-                                    </div>
-
-                                    <div class="carousel__item">
-                                        Hello, World!
-
-                                    </div>
-
-                                    <div class="carousel__item">
-                                        Hello, World!
-                                    </div>
-
+                                <div class="browser__result" data-target="fundamentals">
+                                    <h3 class="browser__title">Fundamentals first</h3>
+                                    <p class="browser__content">
+                                        13 de abr. de 2026 — I build things for the web...
+                                    </p>
                                 </div>
+
+                                <div class="browser__result" data-target="projects">
+                                    <h3 class="browser__title">Projects</h3>
+                                    <p class="browser__content">
+                                        Veja meus projetos...
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <!-- Show when clicked -->
+                            <div class="browser__pages">
+
+                                <section class="browser__page" data-page="fundamentals">
+                                    <h2>Fundamentals First</h2>
+                                    <p>Conteúdo completo aqui...</p>
+                                </section>
+
+                                <section class="browser__page" data-page="projects">
+                                    <h2>Projetos</h2>
+                                    <p>Lista de projetos...</p>
+                                </section>
+
                             </div>
                         </div>
                     </div>

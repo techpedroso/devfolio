@@ -1,9 +1,13 @@
 import initChangeTheme from "/src/js/theme.js";
 // import initMenuMobile from "./js/menu-mobile.js";
-import initCarousel from "/src/js/carousel.js";
+import initBrowser from "/src/js/browser.js";
+// import initCarousel from "/src/js/carousel.js";
 // import initI18n from "./js/i18n.js";
 
-initChangeTheme();
-// initMenuMobile();
-initCarousel();
-// initI18n();
+document.addEventListener("DOMContentLoaded", () => {
+    initChangeTheme();
+    // initMenuMobile();
+    initBrowser();
+    // initCarousel();
+    // initI18n();
+});

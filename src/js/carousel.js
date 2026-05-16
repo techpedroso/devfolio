@@ -37,7 +37,7 @@ function initCarousel() {
 
     function resetTimer() {
         clearInterval(autoPlay);
-        autoPlay = setInterval(nextSlide, 3000);
+        autoPlay = setInterval(nextSlide, 10000);
     }
 
     // mouse hover = pause (it's lagging)
